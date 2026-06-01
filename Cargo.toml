@@ -1,0 +1,13 @@
+[package]
+name = "lau-hodge-decomposition-agents"
+version = "0.1.0"
+edition = "2021"
+description = "Hodge decomposition for agent systems — every agent signal decomposes into exact + coexact + harmonic"
+license = "MIT"
+
+[dependencies]
+nalgebra = "0.33"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[dev-dependencies]
